@@ -14,7 +14,7 @@
 <body>
     <div class="login-container">
         <div style="display: block;">
-            <div class="alert d-none" id="login_alert">Invalid Username or Password!</div>
+            <div class="alert alert-success" id="login_alert">Initializing Database. Please Wait...</div>
 
             <div class="login-form">
                 <div class="box-header">
@@ -22,21 +22,19 @@
 
                     <h1>Simple Login Form</h1>
                 </div>
-
                 <hr>
-
                 <div class="box-body">
                     <form id="login_form" action="javascript:void(0)">
                         <div class="form-group">
                             <label for="login_username">Username</label>
-                            <input type="text" id="login_username" required>
+                            <input type="text" id="login_username" required disabled>
                         </div>
                         <div class="form-group">
                             <label for="login_password">Password</label>
-                            <input type="password" id="login_password" required>
+                            <input type="password" id="login_password" required disabled>
                         </div>
 
-                        <input type="submit" class="btn-submit" id="login_submit">
+                        <input type="submit" class="btn-submit" id="login_submit" value="Login" disabled>
                     </form>
                 </div>
             </div>
