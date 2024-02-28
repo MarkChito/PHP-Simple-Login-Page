@@ -1,0 +1,105 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(240, 230, 230);
+}
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 400px;
+    background-color: white;
+    padding: 1.5rem;
+}
+
+.form-group {
+    display: block;
+    /* margin-bottom: 1rem; */
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.form-group input[type=text],
+input[type=password] {
+    display: block;
+    font-size: 16px;
+    padding: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.btn-submit {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    background-color: green;
+}
+
+.btn-submit:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.alert {
+    display: block;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    width: 400px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+input,
+.alert,
+.login-form {
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+input[type=submit] {
+    border: none;
+}
+
+input[type=text]:disabled,
+input[type=password]:disabled {
+    cursor: not-allowed;
+}
+
+.d-none {
+    display: none;
+}
+
+.register-link {
+    text-align: end;
+    font-size: 16px;
+}
+
+.box-header{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.box-header img{
+    width: 250px;
+}
+
+.box-body{
+    margin-top: 2rem;
+}
